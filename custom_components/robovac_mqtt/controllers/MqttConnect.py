@@ -149,8 +149,8 @@ class MqttConnect(SharedConnect):
                 'head': {
                     'client_id': f"android-{self.mqttCredentials['app_name']}-eufy_android_{self.openudid}_{self.mqttCredentials['user_id']}",
                     'cmd': 65537,
-                    'cmd_status': 2,
-                    'msg_seq': 1,
+                    'cmd_status': 1,
+                    'msg_seq': 2,
                     'seed': '',
                     'sess_id': f"android-{self.mqttCredentials['app_name']}-eufy_android_{self.openudid}_{self.mqttCredentials['user_id']}",
                     'sign_code': 0,
