@@ -91,3 +91,8 @@ EUFY_CLEAN_S_SERIES = [
    'T2119',
    'T2080'
 ]
+
+EUFY_CLEAN_E_SERIES = [
+   'T2353': 'Omni E25'
+]
+
